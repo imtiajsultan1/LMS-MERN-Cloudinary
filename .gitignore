@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# env
+.env
+**/.env
+
+# uploads
+server/uploads/
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# build
+dist/
+dist-ssr/
+**/dist/
+**/dist-ssr/
+build/
+
+# cache
+.vite/
+.eslintcache
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
